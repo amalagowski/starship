@@ -10,7 +10,7 @@
     "inertial_moment": 0,
     "r": 2.25,
     "h": 50,
-    "fuel": 5000,
+    "fuel": 6000,
 
     "components": [
         {
