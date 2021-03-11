@@ -534,7 +534,7 @@ def checkEndConditions(background, allsprites, starship, paused):
 
         paused = True
 
-        if abs(starship.getPitch()) > degrees(5) or abs(starship.getPosition().x) > 20 or abs(starship.getVelocity().x) > 1 or abs(starship.getVelocity().y) > 1:
+        if abs(starship.getPitch()) > degrees(5) or abs(starship.getPosition().x) > 20 or abs(starship.getVelocity().x) > 1 or abs(starship.getVelocity().y) > 5:
             allsprites.remove(starship)
             font = pygame.font.Font(None, 100)
             text = font.render("Game Over", 1, (50, 10, 10))
